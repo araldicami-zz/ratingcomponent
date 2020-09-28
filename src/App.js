@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./index.scss";
-import Star from "./components/Star";
+import React, { useState } from 'react';
+import './index.scss';
+import Star from './components/Star';
 
 const grade = [1, 2, 3, 4, 5];
 
@@ -15,8 +15,6 @@ function App() {
 
     return setSelected(item);
   };
-
-  console.log(hover)
 
   return (
     <div className="main">
