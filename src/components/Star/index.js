@@ -1,8 +1,8 @@
 import React from "react";
 
-function Star({ classe, onClick }) {
+function Star({ classe, onClick, onHover, onRemoveHover }) {
   return (
-    <span onClick={onClick} className={classe}>
+    <span onMouseOver={onHover} onMouseLeave={onRemoveHover} onClick={onClick} className={classe}>
       <i className="fa fa-heart"></i>
     </span>
   )
